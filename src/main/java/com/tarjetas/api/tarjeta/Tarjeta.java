@@ -46,6 +46,9 @@ public class Tarjeta {
     private LocalDate fechaEmision;
     private LocalDateTime fechaAlta;
     private LocalDateTime fechaModificacion;
+    private LocalDateTime fechaRenovacion;
+    private LocalDateTime fechaNotificacion;
+
 
     public boolean estaProximaAVencer() {
         if (fechaVencimiento == null) return false;
